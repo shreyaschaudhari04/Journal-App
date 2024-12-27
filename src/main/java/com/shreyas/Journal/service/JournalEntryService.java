@@ -29,7 +29,7 @@ public class JournalEntryService {
             userService.saveEntry(user);
         }catch(Exception e){
             System.out.println(e);
-            throw new RuntimeException(("An error has occured while saving journal entry"));
+            throw new RuntimeException(("An error has occurred while saving journal entry"));
         }
 
     }
